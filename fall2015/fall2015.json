@@ -378,7 +378,7 @@
 	'date': ['10.16', '10.18']
 },
 {
-	'name': "ecomhack 'Everyday Commerce'",
+	'name': 'ecomhack \"Everyday Commerce\"',
 	'link': 'http://cologne.ecomhack.io/',
 	'location': 'Cologne, Germany',
 	'date': ['10.16', '10.18']
@@ -450,7 +450,7 @@
 	'date': ['10.25', '10.28']
 },
 {
-	'name': "ecomhack 'The New Fashion Experience'",
+	'name': 'ecomhack \"The New Fashion Experience\"',
 	'link': 'http://berlin.ecomhack.io/',
 	'location': 'Berlin, Germany',
 	'date': ['10.30', '11.01']
@@ -564,7 +564,7 @@
 	'date': ['11.20', '11.22']
 },
 {
-	'name': "ecomhack 'Personal Commerce'",
+	'name': 'ecomhack \"Personal Commerce\"',
 	'link': 'http://newyork.ecomhack.io/',
 	'location': 'New York City, NY',
 	'date': ['11.20', '11.22']
