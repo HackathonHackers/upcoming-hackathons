@@ -1,4 +1,4 @@
-{
+{    "hackathons': [
 {
 	'name': 'AT&T Mobile App Hackathon - Seattle',
 	'link': 'http://www.eventbrite.com/e/att-mobile-app-hackathon-seattle-tickets-17925164650',
@@ -592,5 +592,5 @@
 	'link': 'https://hackwestern.com/',
 	'location': 'London, Canada',
 	'date': ['11.27', '11.29']
-},
 }
+]}
