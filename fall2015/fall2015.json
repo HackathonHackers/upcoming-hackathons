@@ -1,796 +1,796 @@
 var hackathons = {
-    'f2015': [
-        {
-            'name': 'AT&T Mobile App Hackathon - Seattle',
-            'link': 'http://www.eventbrite.com/e/att-mobile-app-hackathon-seattle-tickets-17925164650',
-            'location': 'Seattle, WA',
-            'lat': '47.6062095',
-            'lon': '-122.3320708',
-            'date': ['9.11', '9.12']
+    "f2015": [
+        {
+            "name": "AT&T Mobile App Hackathon - Seattle",
+            "link": "http://www.eventbrite.com/e/att-mobile-app-hackathon-seattle-tickets-17925164650",
+            "location": "Seattle, WA",
+            "lat": "47.6062095",
+            "lon": "-122.3320708",
+            "date": ["9.11", "9.12"]
         },
-        {
-            'name': 'GlobalHack V',
-            'link': 'http://www.eventbrite.com/e/globalhack-v-tickets-17287634781',
-            'location': 'St. Louis, MO',
-            'lat': '38.6270025',
-            'lon': '-90.1994042',
-            'date': ['9.11', '9.13']
+        {
+            "name": "GlobalHack V",
+            "link": "http://www.eventbrite.com/e/globalhack-v-tickets-17287634781",
+            "location": "St. Louis, MO",
+            "lat": "38.6270025",
+            "lon": "-90.1994042",
+            "date": ["9.11", "9.13"]
         },
-        {
-            'name': 'HopHacks',
-            'link': 'https://hophacks.com/s15/',
-            'location': 'Baltimore, MD',
-            'lat': '39.2903848',
-            'lon': '-76.6121893',
-            'date': ['9.11', '9.13']
+        {
+            "name": "HopHacks",
+            "link": "https://hophacks.com/s15/",
+            "location": "Baltimore, MD",
+            "lat": "39.2903848",
+            "lon": "-76.6121893",
+            "date": ["9.11", "9.13"]
         },
-        {
-            'name': 'MHacks 6',
-            'link': 'http://mhacks.org/',
-            'location': 'Ann Arbor, MI',
-            'lat': '42.2808256',
-            'lon': '-83.7430378',
-            'date': ['9.11', '9.13']
+        {
+            "name": "MHacks 6",
+            "link": "http://mhacks.org/",
+            "location": "Ann Arbor, MI",
+            "lat": "42.2808256",
+            "lon": "-83.7430378",
+            "date": ["9.11", "9.13"]
         },
-        {
-            'name': 'WeCanCode Ensenada',
-            'link': 'http://community.advancio.com/wcc-hack-2015-ensenada',
-            'location': 'Ensenada, Mexico',
-            'lat': '31.8667427',
-            'lon': '-116.5963713',
-            'date': ['9.11', '9.12']
+        {
+            "name": "WeCanCode Ensenada",
+            "link": "http://community.advancio.com/wcc-hack-2015-ensenada",
+            "location": "Ensenada, Mexico",
+            "lat": "31.8667427",
+            "lon": "-116.5963713",
+            "date": ["9.11", "9.12"]
         },
-        {
-            'name': 'BattleHack Stockholm',
-            'link': 'https://2015.battlehack.org/stockholm',
-            'location': 'Stockholm, Sweden',
-            'lat': '59.3293235',
-            'lon': '18.0685808',
-            'date': ['9.12', '9.13']
+        {
+            "name": "BattleHack Stockholm",
+            "link": "https://2015.battlehack.org/stockholm",
+            "location": "Stockholm, Sweden",
+            "lat": "59.3293235",
+            "lon": "18.0685808",
+            "date": ["9.12", "9.13"]
         },
-        {
-            'name': 'Hack Now: Making a Difference',
-            'link': 'https://www.workwave.com/events/event/0/19-corporate-event/5-hack-now-making-a-difference-third-annual-workwave-hackathon',
-            'location': 'West Long Branch, NJ',
-            'lat': '40.2903891',
-            'lon': '-74.0176381',
-            'date': ['9.12', '9.13']
+        {
+            "name": "Hack Now: Making a Difference",
+            "link": "https://www.workwave.com/events/event/0/19-corporate-event/5-hack-now-making-a-difference-third-annual-workwave-hackathon",
+            "location": "West Long Branch, NJ",
+            "lat": "40.2903891",
+            "lon": "-74.0176381",
+            "date": ["9.12", "9.13"]
         },
-        {
-            'name': 'Hack the House',
-            'link': 'http://www.hack.house/',
-            'location': 'London, UK',
-            'lat': '51.5073509',
-            'lon': '-0.1277583',
-            'date': ['9.12', '9.13']
+        {
+            "name": "Hack the House",
+            "link": "http://www.hack.house/",
+            "location": "London, UK",
+            "lat": "51.5073509",
+            "lon": "-0.1277583",
+            "date": ["9.12", "9.13"]
         },
-        {
-            'name': 'RamHacks',
-            'link': 'http://ramhacks.vcu.edu/',
-            'location': 'Richmond, VA',
-            'lat': '37.5407246',
-            'lon': '-77.4360481',
-            'date': ['9.12', '9.13']
+        {
+            "name": "RamHacks",
+            "link": "http://ramhacks.vcu.edu/",
+            "location": "Richmond, VA",
+            "lat": "37.5407246",
+            "lon": "-77.4360481",
+            "date": ["9.12", "9.13"]
         },
-        {
-            'name': 'BigRed//Hacks',
-            'link': 'http://www.bigredhacks.com',
-            'location': 'Ithaca, NY',
-            'lat': '42.4439614',
-            'lon': '-76.5018807',
-            'date': ['9.18', '9.20']
+        {
+            "name": "BigRed//Hacks",
+            "link": "http://www.bigredhacks.com",
+            "location": "Ithaca, NY",
+            "lat": "42.4439614",
+            "lon": "-76.5018807",
+            "date": ["9.18", "9.20"]
         },
-        {
-            'name': 'HackISU',
-            'link': 'http://hackisu.com/',
-            'location': 'Ames, IA',
-            'lat': '42.0307812',
-            'lon': '-93.6319131',
-            'date': ['9.18', '9.20']
+        {
+            "name": "HackISU",
+            "link": "http://hackisu.com/",
+            "location": "Ames, IA",
+            "lat": "42.0307812",
+            "lon": "-93.6319131",
+            "date": ["9.18", "9.20"]
         },
-        {
-            'name': 'Hack the North',
-            'link': 'http://hackthenorth.com',
-            'location': 'Waterloo, Canada',
-            'lat': '43.4642578',
-            'lon': '-80.5204096',
-            'date': ['9.18', '9.20']
+        {
+            "name": "Hack the North",
+            "link": "http://hackthenorth.com",
+            "location": "Waterloo, Canada",
+            "lat": "43.4642578",
+            "lon": "-80.5204096",
+            "date": ["9.18", "9.20"]
         },
-        {
-            'name': 'Hacking Eating Tracking Hackathon',
-            'link': 'http://www.hackingeatingtracking.org/',
-            'location': 'Cambridge, MA',
-            'lat': '42.3736158',
-            'lon': '-71.1097335',
-            'date': ['9.18', '9.20']
+        {
+            "name": "Hacking Eating Tracking Hackathon",
+            "link": "http://www.hackingeatingtracking.org/",
+            "location": "Cambridge, MA",
+            "lat": "42.3736158",
+            "lon": "-71.1097335",
+            "date": ["9.18", "9.20"]
         },
-        {
-            'name': 'Stamford Hackathon',
-            'link': 'http://www.stamfordhackathon.org/',
-            'location': 'Stamford, CT',
-            'lat': '41.0534302',
-            'lon': '-73.5387341',
-            'date': ['9.18', '9.20']
+        {
+            "name": "Stamford Hackathon",
+            "link": "http://www.stamfordhackathon.org/",
+            "location": "Stamford, CT",
+            "lat": "41.0534302",
+            "lon": "-73.5387341",
+            "date": ["9.18", "9.20"]
         },
-        {
-            'name': 'WUHack',
-            'link': 'http://wuhack.com/',
-            'location': 'St. Louis, MO',
-            'lat': '38.6270025',
-            'lon': '-90.1994042',
-            'date': ['9.18', '9.20']
+        {
+            "name": "WUHack",
+            "link": "http://wuhack.com/",
+            "location": "St. Louis, MO",
+            "lat": "38.6270025",
+            "lon": "-90.1994042",
+            "date": ["9.18", "9.20"]
         },
-        {
-            'name': 'Audio Hackathon 2015',
-            'link': 'http://audiohackathon.com/',
-            'location': 'New York City, NY',
-            'lat': '40.7127837',
-            'lon': '-74.0059413',
-            'date': ['9.19', '9.20']
+        {
+            "name": "Audio Hackathon 2015",
+            "link": "http://audiohackathon.com/",
+            "location": "New York City, NY",
+            "lat": "40.7127837",
+            "lon": "-74.0059413",
+            "date": ["9.19", "9.20"]
         },
-        {
-            'name': 'Stamford Hackathon 1.0',
-            'link': 'http://www.eventbrite.com/e/stamford-hackathon-10-tickets-16476307078?aff=es2',
-            'location': 'Stamford, CT',
-            'lat': '41.0534302',
-            'lon': '-73.5387341',
-            'date': ['9.18', '9.20']
+        {
+            "name": "Stamford Hackathon 1.0",
+            "link": "http://www.eventbrite.com/e/stamford-hackathon-10-tickets-16476307078?aff=es2",
+            "location": "Stamford, CT",
+            "lat": "41.0534302",
+            "lon": "-73.5387341",
+            "date": ["9.18", "9.20"]
         },
-        {
-            'name': 'Hackagong',
-            'link': 'http://hackagong.com/',
-            'location': 'Wollongong, Australia',
-            'lat': '-34.4250728',
-            'lon': '150.8931494',
-            'date': ['9.19', '9.20']
+        {
+            "name": "Hackagong",
+            "link": "http://hackagong.com/",
+            "location": "Wollongong, Australia",
+            "lat": "-34.4250728",
+            "lon": "150.8931494",
+            "date": ["9.19", "9.20"]
         },
-        {
-            'name': 'HackMIT',
-            'link': 'https://hackmit.org',
-            'location': 'Cambridge, MA',
-            'lat': '42.3736158',
-            'lon': '-71.1097335',
-            'date': ['9.19', '9.20']
+        {
+            "name": "HackMIT",
+            "link": "https://hackmit.org",
+            "location": "Cambridge, MA",
+            "lat": "42.3736158",
+            "lon": "-71.1097335",
+            "date": ["9.19", "9.20"]
         },
-        {
-            'name': 'LexHack',
-            'link': 'http://lexhack.org/',
-            'location': 'Lexington, MA',
-            'lat': '42.4430372',
-            'lon': '-71.2289641',
-            'date': ['9.19']
+        {
+            "name": "LexHack",
+            "link": "http://lexhack.org/",
+            "location": "Lexington, MA",
+            "lat": "42.4430372",
+            "lon": "-71.2289641",
+            "date": ["9.19"]
         },
-        {
-            'name': 'TechCrunch Disrupt SF 2015 Hackathon',
-            'link': 'https://www.eventbrite.com/e/hackathon-at-techcrunch-disrupt-sf-2015-tickets-18151440447',
-            'location': 'San Francisco, CA',
-            'lat': '37.7749295',
-            'lon': '-122.4194155',
-            'date': ['9.19', '9.20']
+        {
+            "name": "TechCrunch Disrupt SF 2015 Hackathon",
+            "link": "https://www.eventbrite.com/e/hackathon-at-techcrunch-disrupt-sf-2015-tickets-18151440447",
+            "location": "San Francisco, CA",
+            "lat": "37.7749295",
+            "lon": "-122.4194155",
+            "date": ["9.19", "9.20"]
         },
-        {
-            'name': 'Hacks 4 Humanity',
-            'link': 'http://hacks4humanity.com/',
-            'location': 'Tempe, AZ',
-            'lat': '33.4255104',
-            'lon': '-111.9400054',
-            'date': ['9.20', '9.21']
+        {
+            "name": "Hacks 4 Humanity",
+            "link": "http://hacks4humanity.com/",
+            "location": "Tempe, AZ",
+            "lat": "33.4255104",
+            "lon": "-111.9400054",
+            "date": ["9.20", "9.21"]
         },
-        {
-            'name': 'AEC Hackathon',
-            'link': 'http://www.meetup.com/Seattle-Hackathons/events/221871146/',
-            'location': 'Seattle, WA',
-            'lat': '47.6062095',
-            'lon': '-122.3320708',
-            'date': ['9.25', '9.27']
+        {
+            "name": "AEC Hackathon",
+            "link": "http://www.meetup.com/Seattle-Hackathons/events/221871146/",
+            "location": "Seattle, WA",
+            "lat": "47.6062095",
+            "lon": "-122.3320708",
+            "date": ["9.25", "9.27"]
         },
-        {
-            'name': 'Hack DC 2',
-            'link': 'http://www.hackdc.com/',
-            'location': 'Washington, DC',
-            'lat': '38.9071923',
-            'lon': '-77.0368707',
-            'date': ['9.25', '9.27']
+        {
+            "name": "Hack DC 2",
+            "link": "http://www.hackdc.com/",
+            "location": "Washington, DC",
+            "lat": "38.9071923",
+            "lon": "-77.0368707",
+            "date": ["9.25", "9.27"]
         },
-        {
-            'name': 'HackGT',
-            'link': 'http://hackgt.com/',
-            'location': 'Atlanta, GA',
-            'lat': '33.7489954',
-            'lon': '-84.3879824',
-            'date': ['9.25', '9.27']
+        {
+            "name": "HackGT",
+            "link": "http://hackgt.com/",
+            "location": "Atlanta, GA",
+            "lat": "33.7489954",
+            "lon": "-84.3879824",
+            "date": ["9.25", "9.27"]
         },
-        {
-            'name': 'MythicApps',
-            'link': 'http://www.mythicapps.io/',
-            'location': 'Lansing, MI',
-            'lat': '42.732535',
-            'lon': '-84.5555347',
-            'date': ['9.25', '9.27']
+        {
+            "name": "MythicApps",
+            "link": "http://www.mythicapps.io/",
+            "location": "Lansing, MI",
+            "lat": "42.732535",
+            "lon": "-84.5555347",
+            "date": ["9.25", "9.27"]
         },
-        {
-            'name': 'Virtual Reality Hackathon Seattle',
-            'link': 'http://www.eventbrite.com/e/virtual-reality-hackathon-seattle-tickets-17799672299',
-            'location': 'Seattle, WA',
-            'lat': '47.6062095',
-            'lon': '-122.3320708',
-            'date': ['9.25', '9.27']
+        {
+            "name": "Virtual Reality Hackathon Seattle",
+            "link": "http://www.eventbrite.com/e/virtual-reality-hackathon-seattle-tickets-17799672299",
+            "location": "Seattle, WA",
+            "lat": "47.6062095",
+            "lon": "-122.3320708",
+            "date": ["9.25", "9.27"]
         },
-        {
-            'name': 'Genesys Hackathon',
-            'link': 'http://www.eventbrite.ca/e/genesys-hackathon-top-prize-3-apple-watches-registration-17482134535',
-            'location': 'Toronto, Canada',
-            'lat': '43.653226',
-            'lon': '-79.3831843',
-            'date': ['9.26', '9.27']
+        {
+            "name": "Genesys Hackathon",
+            "link": "http://www.eventbrite.ca/e/genesys-hackathon-top-prize-3-apple-watches-registration-17482134535",
+            "location": "Toronto, Canada",
+            "lat": "43.653226",
+            "lon": "-79.3831843",
+            "date": ["9.26", "9.27"]
         },
-        {
-            'name': 'HackCUU',
-            'link': 'http://www.hackcuu.com/',
-            'location': 'Chihuahua, Mexico',
-            'lat': '28.6329957',
-            'lon': '-106.0691004',
-            'date': ['9.26', '9.27']
+        {
+            "name": "HackCUU",
+            "link": "http://www.hackcuu.com/",
+            "location": "Chihuahua, Mexico",
+            "lat": "28.6329957",
+            "lon": "-106.0691004",
+            "date": ["9.26", "9.27"]
         },
-        {
-            'name': 'HackGenY',
-            'link': 'http://www.hackgeny.com/london/',
-            'location': 'London, UK',
-            'lat': '51.5073509',
-            'lon': '-0.1277583',
-            'date': ['9.26', '9.27']
+        {
+            "name": "HackGenY",
+            "link": "http://www.hackgeny.com/london/",
+            "location": "London, UK",
+            "lat": "51.5073509",
+            "lon": "-0.1277583",
+            "date": ["9.26", "9.27"]
         },
-        {
-            'name': 'hackNY',
-            'link': 'http://hackny.org/a/fall2015hackathon/',
-            'location': 'New York City, NY',
-            'lat': '40.7127837',
-            'lon': '-74.0059413',
-            'date': ['9.26', '9.27']
+        {
+            "name": "hackNY",
+            "link": "http://hackny.org/a/fall2015hackathon/",
+            "location": "New York City, NY",
+            "lat": "40.7127837",
+            "lon": "-74.0059413",
+            "date": ["9.26", "9.27"]
         },
-        {
-            'name': 'HackTX',
-            'link': 'http://hacktx.com/',
-            'location': 'Austin, TX',
-            'lat': '30.267153',
-            'lon': '-97.7430608',
-            'date': ['9.26', '9.27']
+        {
+            "name": "HackTX",
+            "link": "http://hacktx.com/",
+            "location": "Austin, TX",
+            "lat": "30.267153",
+            "lon": "-97.7430608",
+            "date": ["9.26", "9.27"]
         },
-        {
-            'name': 'Huskie Hack',
-            'link': 'http://www.huskiehack.org/',
-            'location': 'DeKalb, IL',
-            'lat': '41.9294736',
-            'lon': '-88.7503647',
-            'date': ['9.26', '9.27']
+        {
+            "name": "Huskie Hack",
+            "link": "http://www.huskiehack.org/",
+            "location": "DeKalb, IL",
+            "lat": "41.9294736",
+            "lon": "-88.7503647",
+            "date": ["9.26", "9.27"]
         },
-        {
-            'name': 'Integrate 2015 Hackathon',
-            'link': 'http://www.eventbrite.com/e/integrate-2015-hackathon-tickets-17091480077?aff=es2',
-            'location': 'Sunnyvale, CA',
-            'lat': '37.36883',
-            'lon': '-122.0363496',
-            'date': ['9.26', '9.27']
+        {
+            "name": "Integrate 2015 Hackathon",
+            "link": "http://www.eventbrite.com/e/integrate-2015-hackathon-tickets-17091480077?aff=es2",
+            "location": "Sunnyvale, CA",
+            "lat": "37.36883",
+            "lon": "-122.0363496",
+            "date": ["9.26", "9.27"]
         },
-        {
-            'name': 'MasterCard Masters of Code: Montreal',
-            'link': 'http://mastersofcode.com/event/montreal/',
-            'location': 'Montreal, Canada',
-            'lat': '45.5016889',
-            'lon': '-73.567256',
-            'date': ['9.26', '9.27']
+        {
+            "name": "MasterCard Masters of Code: Montreal",
+            "link": "http://mastersofcode.com/event/montreal/",
+            "location": "Montreal, Canada",
+            "lat": "45.5016889",
+            "lon": "-73.567256",
+            "date": ["9.26", "9.27"]
         },
-        {
-            'name': 'Lesbians Who Tech Summit Hackathon',
-            'link': 'http://www.eventbrite.com/e/lesbians-who-tech-and-allies-new-york-summit-tickets-16923662129?aff=es2',
-            'location': 'New York City, NY',
-            'lat': '40.7127837',
-            'lon': '-74.0059413',
-            'date': ['10.01', '10.04']
+        {
+            "name": "Lesbians Who Tech Summit Hackathon",
+            "link": "http://www.eventbrite.com/e/lesbians-who-tech-and-allies-new-york-summit-tickets-16923662129?aff=es2",
+            "location": "New York City, NY",
+            "lat": "40.7127837",
+            "lon": "-74.0059413",
+            "date": ["10.01", "10.04"]
         },
-        {
-            'name': 'Code for the Kingdom Global Hackathon Seattle',
-            'link': 'http://www.eventbrite.com/e/code-for-the-kingdom-global-hackathon-seattle-registration-17975920462',
-            'location': 'Seattle, WA',
-            'lat': '47.6062095',
-            'lon': '-122.3320708',
-            'date': ['10.02', '10.04']
+        {
+            "name": "Code for the Kingdom Global Hackathon Seattle",
+            "link": "http://www.eventbrite.com/e/code-for-the-kingdom-global-hackathon-seattle-registration-17975920462",
+            "location": "Seattle, WA",
+            "lat": "47.6062095",
+            "lon": "-122.3320708",
+            "date": ["10.02", "10.04"]
         },
-        {
-            'name': 'HackZurich',
-            'link': 'http://hackzurich.com/',
-            'location': 'Zurich, Switzerland',
-            'lat': '47.3768866',
-            'lon': '8.541694',
-            'date': ['10.02', '10.04']
+        {
+            "name": "HackZurich",
+            "link": "http://hackzurich.com/",
+            "location": "Zurich, Switzerland",
+            "lat": "47.3768866",
+            "lon": "8.541694",
+            "date": ["10.02", "10.04"]
         },
-        {
-            'name': 'inGenius 2015',
-            'link': 'http://ingeniushack.com/',
-            'location': 'Bangalore, India',
-            'lat': '12.9715987',
-            'lon': '77.5945627',
-            'date': ['10.02', '10.03']
+        {
+            "name": "inGenius 2015",
+            "link": "http://ingeniushack.com/",
+            "location": "Bangalore, India",
+            "lat": "12.9715987",
+            "lon": "77.5945627",
+            "date": ["10.02", "10.03"]
         },
-        {
-            'name': 'MavHack',
-            'link': 'http://www.mavhack.com/',
-            'location': 'Arlington, TX',
-            'lat': '32.735687',
-            'lon': '-97.1080656',
-            'date': ['10.02', '10.03']
+        {
+            "name": "MavHack",
+            "link": "http://www.mavhack.com/",
+            "location": "Arlington, TX",
+            "lat": "32.735687",
+            "lon": "-97.1080656",
+            "date": ["10.02", "10.03"]
         },
-        {
-            'name': 'MedHacks 1.0',
-            'link': 'http://medhacks.org/',
-            'location': 'Baltimore, MD',
-            'lat': '39.2903848',
-            'lon': '-76.6121893',
-            'date': ['10.02', '10.04']
+        {
+            "name": "MedHacks 1.0",
+            "link": "http://medhacks.org/",
+            "location": "Baltimore, MD",
+            "lat": "39.2903848",
+            "lon": "-76.6121893",
+            "date": ["10.02", "10.04"]
         },
-        {
-            'name': 'SD Hacks',
-            'link': 'http://sdhacks.io/',
-            'location': 'San Diego, CA',
-            'lat': '32.715738',
-            'lon': '-117.1610838',
-            'date': ['10.02', '10.04']
+        {
+            "name": "SD Hacks",
+            "link": "http://sdhacks.io/",
+            "location": "San Diego, CA",
+            "lat": "32.715738",
+            "lon": "-117.1610838",
+            "date": ["10.02", "10.04"]
         },
-        {
-            'name': 'Seattle Give Camp',
-            'link': 'http://seattlegivecamp.org/',
-            'location': 'Redmond, WA',
-            'lat': '47.6739881',
-            'lon': '-122.121512',
-            'date': ['10.02', '10.04']
+        {
+            "name": "Seattle Give Camp",
+            "link": "http://seattlegivecamp.org/",
+            "location": "Redmond, WA",
+            "lat": "47.6739881",
+            "lon": "-122.121512",
+            "date": ["10.02", "10.04"]
         },
-        {
-            'name': 'THE Port Hackathon at CERN',
-            'link': 'http://theport.ch/',
-            'location': 'Geneva, Switzerland',
-            'lat': '46.2043907',
-            'lon': '6.1431577',
-            'date': ['10.02', '10.04']
+        {
+            "name": "THE Port Hackathon at CERN",
+            "link": "http://theport.ch/",
+            "location": "Geneva, Switzerland",
+            "lat": "46.2043907",
+            "lon": "6.1431577",
+            "date": ["10.02", "10.04"]
         },
-        {
-            'name': 'VandyHacks',
-            'link': 'http://www.vandyhacks.org/',
-            'location': 'Nashville, TN',
-            'lat': '36.1626638',
-            'lon': '-86.7816016',
-            'date': ['10.02', '10.04']
+        {
+            "name": "VandyHacks",
+            "link": "http://www.vandyhacks.org/",
+            "location": "Nashville, TN",
+            "lat": "36.1626638",
+            "lon": "-86.7816016",
+            "date": ["10.02", "10.04"]
         },
-        {
-            'name': 'VR Hackathon Cameroon',
-            'link': 'http://vrhackathon.com/cameroon.html',
-            'location': 'Yaounde, Cameroon',
-            'lat': '3.8480325',
-            'lon': '11.5020752',
-            'date': ['10.02', '10.04']
+        {
+            "name": "VR Hackathon Cameroon",
+            "link": "http://vrhackathon.com/cameroon.html",
+            "location": "Yaounde, Cameroon",
+            "lat": "3.8480325",
+            "lon": "11.5020752",
+            "date": ["10.02", "10.04"]
         },
-        {
-            'name': 'Traffic Jam',
-            'link': 'http://trafficjam.to/',
-            'location': 'Toronto, Canada',
-            'lat': '43.653226',
-            'lon': '-79.3831843',
-            'date': ['10.02', '10.04']
+        {
+            "name": "Traffic Jam",
+            "link": "http://trafficjam.to/",
+            "location": "Toronto, Canada",
+            "lat": "43.653226",
+            "lon": "-79.3831843",
+            "date": ["10.02", "10.04"]
         },
-        {
-            'name': '#INCLUDE <A-THON>',
-            'link': 'https://include-hackathon.herokuapp.com',
-            'location': 'San Juan, Puerto Rico',
-            'lat': '18.4663338',
-            'lon': '-66.1057217',
-            'date': ['10.03', '10.04']
+        {
+            "name": "#INCLUDE <A-THON>",
+            "link": "https://include-hackathon.herokuapp.com",
+            "location": "San Juan, Puerto Rico",
+            "lat": "18.4663338",
+            "lon": "-66.1057217",
+            "date": ["10.03", "10.04"]
         },
-        {
-            'name': 'HackDartmouth',
-            'link': 'http://hackdartmouth.io/',
-            'location': 'Hanover, NH',
-            'lat': '43.7022451',
-            'lon': '-72.2895526',
-            'date': ['10.03', '10.04']
+        {
+            "name": "HackDartmouth",
+            "link": "http://hackdartmouth.io/",
+            "location": "Hanover, NH",
+            "lat": "43.7022451",
+            "lon": "-72.2895526",
+            "date": ["10.03", "10.04"]
         },
-        {
-            'name': 'HackRU',
-            'link': 'http://hackru.org/',
-            'location': 'New Brunswick, NJ',
-            'lat': '40.4862157',
-            'lon': '-74.4518188',
-            'date': ['10.03', '10.04']
+        {
+            "name": "HackRU",
+            "link": "http://hackru.org/",
+            "location": "New Brunswick, NJ",
+            "lat": "40.4862157",
+            "lon": "-74.4518188",
+            "date": ["10.03", "10.04"]
         },
-        {
-            'name': 'Hack Upstate VI',
-            'link': 'http://hackupstate.com/',
-            'location': 'Syracuse, NY',
-            'lat': '43.0481221',
-            'lon': '-76.1474244',
-            'date': ['10.03', '10.04']
+        {
+            "name": "Hack Upstate VI",
+            "link": "http://hackupstate.com/",
+            "location": "Syracuse, NY",
+            "lat": "43.0481221",
+            "lon": "-76.1474244",
+            "date": ["10.03", "10.04"]
         },
-        {
-            'name': 'WHACK',
-            'link': 'http://wellesleyhacks.org/',
-            'location': 'Wellesley, MA',
-            'lat': '42.296797',
-            'lon': '-71.2923877',
-            'date': ['10.03', '10.04']
+        {
+            "name": "WHACK",
+            "link": "http://wellesleyhacks.org/",
+            "location": "Wellesley, MA",
+            "lat": "42.296797",
+            "lon": "-71.2923877",
+            "date": ["10.03", "10.04"]
         },
-        {
-            'name': 'Amazon AWS re:invent',
-            'link': 'http://reinvent.awsevents.com/',
-            'location': 'Las Vegas, NV',
-            'lat': '36.1699412',
-            'lon': '-115.1398296',
-            'date': ['10.05', '10.09']
+        {
+            "name": "Amazon AWS re:invent",
+            "link": "http://reinvent.awsevents.com/",
+            "location": "Las Vegas, NV",
+            "lat": "36.1699412",
+            "lon": "-115.1398296",
+            "date": ["10.05", "10.09"]
         },
-        {
-            'name': 'BlowHack',
-            'link': 'https://www.eventbrite.co.uk/e/blowhack-tickets-16555279286?hc_location=ufi',
-            'location': 'TBD',
-            'lat': '44.4929312',
-            'lon': '-90.7610498',
-            'date': ['10.07', '10.09']
+        {
+            "name": "BlowHack",
+            "link": "https://www.eventbrite.co.uk/e/blowhack-tickets-16555279286?hc_location=ufi",
+            "location": "TBD",
+            "lat": "44.4929312",
+            "lon": "-90.7610498",
+            "date": ["10.07", "10.09"]
         },
-        {
-            'name': 'Cal Hacks',
-            'link': 'www.calhacks.io',
-            'location': 'Berkeley, CA',
-            'lat': '37.8715926',
-            'lon': '-122.272747',
-            'date': ['10.09', '10.11']
+        {
+            "name": "Cal Hacks",
+            "link": "www.calhacks.io",
+            "location": "Berkeley, CA",
+            "lat": "37.8715926",
+            "lon": "-122.272747",
+            "date": ["10.09", "10.11"]
         },
-        {
-            'name': 'H2O Hackathon',
-            'link': 'http://www.eventbrite.com/e/h2o-hackathon-tickets-15609669943?aff=es2',
-            'location': 'Stockton, CA',
-            'lat': '37.9577016',
-            'lon': '-121.2907796',
-            'date': ['10.09']
+        {
+            "name": "H2O Hackathon",
+            "link": "http://www.eventbrite.com/e/h2o-hackathon-tickets-15609669943?aff=es2",
+            "location": "Stockton, CA",
+            "lat": "37.9577016",
+            "lon": "-121.2907796",
+            "date": ["10.09"]
         },
-        {
-            'name': 'HackNC',
-            'link': 'http://hacknc.com/',
-            'location': 'Chapel Hill, NC',
-            'lat': '35.9131996',
-            'lon': '-79.0558445',
-            'date': ['10.09', '10.11']
+        {
+            "name": "HackNC",
+            "link": "http://hacknc.com/",
+            "location": "Chapel Hill, NC",
+            "lat": "35.9131996",
+            "lon": "-79.0558445",
+            "date": ["10.09", "10.11"]
         },
-        {
-            'name': 'Kent Hack Enough',
-            'link': 'http://khe.io',
-            'location': 'Kent, OH',
-            'lat': '41.1536674',
-            'lon': '-81.3578859',
-            'date': ['10.09', '10.11']
+        {
+            "name": "Kent Hack Enough",
+            "link": "http://khe.io",
+            "location": "Kent, OH",
+            "lat": "41.1536674",
+            "lon": "-81.3578859",
+            "date": ["10.09", "10.11"]
         },
-        {
-            'name': 'VR Hackathon South Africa',
-            'link': 'http://vrhackathon.com/south-africa.html',
-            'location': 'Cape Town, South Africa',
-            'lat': '-33.9248685',
-            'lon': '18.4240553',
-            'date': ['10.09', '10.11']
+        {
+            "name": "VR Hackathon South Africa",
+            "link": "http://vrhackathon.com/south-africa.html",
+            "location": "Cape Town, South Africa",
+            "lat": "-33.9248685",
+            "lon": "18.4240553",
+            "date": ["10.09", "10.11"]
         },
-        {
-            'name': 'Local Hack Day II',
-            'link': 'http://localhackday.mlh.io/',
-            'location': 'Multiple Cities',
-            'lat': '32.0369421',
-            'lon': '118.851977',
-            'date': ['10.10']
+        {
+            "name": "Local Hack Day II",
+            "link": "http://localhackday.mlh.io/",
+            "location": "Multiple Cities",
+            "lat": "32.0369421",
+            "lon": "118.851977",
+            "date": ["10.10"]
         },
-        {
-            'name': 'BattleHack Tel Aviv',
-            'link': 'https://2015.battlehack.org/tel_aviv',
-            'location': 'Tel Aviv, Israel',
-            'lat': '32.0852999',
-            'lon': '34.7817676',
-            'date': ['10.10', '10.11']
+        {
+            "name": "BattleHack Tel Aviv",
+            "link": "https://2015.battlehack.org/tel_aviv",
+            "location": "Tel Aviv, Israel",
+            "lat": "32.0852999",
+            "lon": "34.7817676",
+            "date": ["10.10", "10.11"]
         },
-        {
-            'name': 'I2E Healthcare Hackathon',
-            'link': 'http://www.eventbrite.com/e/linguamatics-text-mining-summit-and-i2e-healthcare-hackathon-2015-tickets-16330157942?aff=es2',
-            'location': 'Newport, RI',
-            'lat': '41.4901024',
-            'lon': '-71.3128285',
-            'date': ['10.12', '10.14']
+        {
+            "name": "I2E Healthcare Hackathon",
+            "link": "http://www.eventbrite.com/e/linguamatics-text-mining-summit-and-i2e-healthcare-hackathon-2015-tickets-16330157942?aff=es2",
+            "location": "Newport, RI",
+            "lat": "41.4901024",
+            "lon": "-71.3128285",
+            "date": ["10.12", "10.14"]
         },
-        {
-            'name': 'BoilerMake',
-            'link': 'http://boilermake.org/',
-            'location': 'West Lafayette, IN',
-            'lat': '40.4258686',
-            'lon': '-86.9080655',
-            'date': ['10.16', '10.18']
+        {
+            "name": "BoilerMake",
+            "link": "http://boilermake.org/",
+            "location": "West Lafayette, IN",
+            "lat": "40.4258686",
+            "lon": "-86.9080655",
+            "date": ["10.16", "10.18"]
         },
-        {
-            'name': 'ecomhack \"Everyday Commerce\"',
-            'link': 'http://cologne.ecomhack.io/',
-            'location': 'Cologne, Germany',
-            'lat': '50.937531',
-            'lon': '6.9602786',
-            'date': ['10.16', '10.18']
+        {
+            "name": "ecomhack \"Everyday Commerce\"",
+            "link": "http://cologne.ecomhack.io/",
+            "location": "Cologne, Germany",
+            "lat": "50.937531",
+            "lon": "6.9602786",
+            "date": ["10.16", "10.18"]
         },
-        {
-            'name': 'VR Hackathon Albania',
-            'link': 'http://vrhackathon.com/albania.html',
-            'location': 'Tirana, Albania',
-            'lat': '41.3275459',
-            'lon': '19.8186982',
-            'date': ['10.16', '10.18']
+        {
+            "name": "VR Hackathon Albania",
+            "link": "http://vrhackathon.com/albania.html",
+            "location": "Tirana, Albania",
+            "lat": "41.3275459",
+            "lon": "19.8186982",
+            "date": ["10.16", "10.18"]
         },
-        {
-            'name': 'DubHacks',
-            'link': 'http://15f.dubhacks.co/',
-            'location': 'Seattle, WA',
-            'lat': '47.6062095',
-            'lon': '-122.3320708',
-            'date': ['10.17', '10.18']
+        {
+            "name": "DubHacks",
+            "link": "http://15f.dubhacks.co/",
+            "location": "Seattle, WA",
+            "lat": "47.6062095",
+            "lon": "-122.3320708",
+            "date": ["10.17", "10.18"]
         },
-        {
-            'name': 'jacobsHack!',
-            'link': 'https://2015f.jacobshack.com/',
-            'location': 'Bremen, Germany',
-            'lat': '53.0792962',
-            'lon': '8.8016937',
-            'date': ['10.17', '10.18']
+        {
+            "name": "jacobsHack!",
+            "link": "https://2015f.jacobshack.com/",
+            "location": "Bremen, Germany",
+            "lat": "53.0792962",
+            "lon": "8.8016937",
+            "date": ["10.17", "10.18"]
         },
-        {
-            'name': 'AGHacks',
-            'link': 'http://www.aghacks.com/',
-            'location': 'Krakow, Poland',
-            'lat': '50.0646501',
-            'lon': '19.9449799',
-            'date': ['10.23', '10.25']
+        {
+            "name": "AGHacks",
+            "link": "http://www.aghacks.com/",
+            "location": "Krakow, Poland",
+            "lat": "50.0646501",
+            "lon": "19.9449799",
+            "date": ["10.23", "10.25"]
         },
-        {
-            'name': 'Desert Hacks',
-            'link': 'http://deserthacks.org/',
-            'location': 'Tempte, AZ',
-            'lat': '33.4255104',
-            'lon': '-111.9400054',
-            'date': ['10.23', '10.25']
+        {
+            "name": "Desert Hacks",
+            "link": "http://deserthacks.org/",
+            "location": "Tempte, AZ",
+            "lat": "33.4255104",
+            "lon": "-111.9400054",
+            "date": ["10.23", "10.25"]
         },
-        {
-            'name': 'HackingEDU',
-            'link': 'http://hackingedu.co/',
-            'location': 'San Mateo, CA',
-            'lat': '37.5629917',
-            'lon': '-122.3255254',
-            'date': ['10.23', '10.25']
+        {
+            "name": "HackingEDU",
+            "link": "http://hackingedu.co/",
+            "location": "San Mateo, CA",
+            "lat": "37.5629917",
+            "lon": "-122.3255254",
+            "date": ["10.23", "10.25"]
         },
-        {
-            'name': 'HackUMass',
-            'link': 'http://www.hackumass.com/',
-            'location': 'Amherst, MA',
-            'lat': '42.3732216',
-            'lon': '-72.5198537',
-            'date': ['10.23', '10.25']
+        {
+            "name": "HackUMass",
+            "link": "http://www.hackumass.com/",
+            "location": "Amherst, MA",
+            "lat": "42.3732216",
+            "lon": "-72.5198537",
+            "date": ["10.23", "10.25"]
         },
-        {
-            'name': 'BrumHack',
-            'link': 'https://www.brumhack.co.uk/',
-            'location': 'Birmingham, UK',
-            'lat': '52.486243',
-            'lon': '-1.890401',
-            'date': ['10.24', '10.25']
+        {
+            "name": "BrumHack",
+            "link": "https://www.brumhack.co.uk/",
+            "location": "Birmingham, UK",
+            "lat": "52.486243",
+            "lon": "-1.890401",
+            "date": ["10.24", "10.25"]
         },
-        {
-            'name': 'def hacks()',
-            'link': 'http://defhacks.xyz/',
-            'location': 'New York City, NY',
-            'lat': '40.7127837',
-            'lon': '-74.0059413',
-            'date': ['10.24', '10.25']
+        {
+            "name": "def hacks()",
+            "link": "http://defhacks.xyz/",
+            "location": "New York City, NY",
+            "lat": "40.7127837",
+            "lon": "-74.0059413",
+            "date": ["10.24", "10.25"]
         },
-        {
-            'name': 'Waterloo Codefest',
-            'link': 'http://www.waterloo.ca/en/government/WaterlooCodefest.asp',
-            'location': 'Waterloo, Canada',
-            'lat': '43.4642578',
-            'lon': '-80.5204096',
-            'date': ['10.24', '10.25']
+        {
+            "name": "Waterloo Codefest",
+            "link": "http://www.waterloo.ca/en/government/WaterlooCodefest.asp",
+            "location": "Waterloo, Canada",
+            "lat": "43.4642578",
+            "lon": "-80.5204096",
+            "date": ["10.24", "10.25"]
         },
-        {
-            'name': 'Money 20/20 Hackathon',
-            'link': 'http://www.money2020.com/',
-            'location': 'Las Vegas, NV',
-            'lat': '36.1699412',
-            'lon': '-115.1398296',
-            'date': ['10.25', '10.28']
+        {
+            "name": "Money 20/20 Hackathon",
+            "link": "http://www.money2020.com/",
+            "location": "Las Vegas, NV",
+            "lat": "36.1699412",
+            "lon": "-115.1398296",
+            "date": ["10.25", "10.28"]
         },
-        {
-            'name': 'ecomhack \"The New Fashion Experience\"',
-            'link': 'http://berlin.ecomhack.io/',
-            'location': 'Berlin, Germany',
-            'lat': '52.5200066',
-            'lon': '13.404954',
-            'date': ['10.30', '11.01']
+        {
+            "name": "ecomhack \"The New Fashion Experience\"",
+            "link": "http://berlin.ecomhack.io/",
+            "location": "Berlin, Germany",
+            "lat": "52.5200066",
+            "lon": "13.404954",
+            "date": ["10.30", "11.01"]
         },
-        {
-            'name': 'LeadingAge HackFest',
-            'link': 'http://www.eventbrite.com/e/2015-leadingage-hackfest-hackathon-registration-11225376403?aff=es2',
-            'location': 'Boston, MA',
-            'lat': '42.3600825',
-            'lon': '-71.0588801',
-            'date': ['10.30', '11.01']
+        {
+            "name": "LeadingAge HackFest",
+            "link": "http://www.eventbrite.com/e/2015-leadingage-hackfest-hackathon-registration-11225376403?aff=es2",
+            "location": "Boston, MA",
+            "lat": "42.3600825",
+            "lon": "-71.0588801",
+            "date": ["10.30", "11.01"]
         },
-        {
-            'name': 'BostonHacks',
-            'link': 'https://bostonhacks.io/',
-            'location': 'Boston, MA',
-            'lat': '42.3600825',
-            'lon': '-71.0588801',
-            'date': ['10.31', '11.01']
+        {
+            "name": "BostonHacks",
+            "link": "https://bostonhacks.io/",
+            "location": "Boston, MA",
+            "lat": "42.3600825",
+            "lon": "-71.0588801",
+            "date": ["10.31", "11.01"]
         },
-        {
-            'name': 'Citrus Hack',
-            'link': 'https://citrushack.com',
-            'location': 'Riverside, CA',
-            'lat': '33.9533487',
-            'lon': '-117.3961564',
-            'date': ['11.06', '11.08']
+        {
+            "name": "Citrus Hack",
+            "link": "https://citrushack.com",
+            "location": "Riverside, CA",
+            "lat": "33.9533487",
+            "lon": "-117.3961564",
+            "date": ["11.06", "11.08"]
         },
-        {
-            'name': 'HackHolyoke',
-            'link': 'http://www.hackholyoke.org/',
-            'location': 'South Hadley, MA',
-            'lat': '42.2591729',
-            'lon': '-72.5747934',
-            'date': ['11.06', '11.07']
+        {
+            "name": "HackHolyoke",
+            "link": "http://www.hackholyoke.org/",
+            "location": "South Hadley, MA",
+            "lat": "42.2591729",
+            "lon": "-72.5747934",
+            "date": ["11.06", "11.07"]
         },
-        {
-            'name': 'hackUstate',
-            'link': 'http://hackustate.org/',
-            'location': 'Logan, UT',
-            'lat': '41.7369803',
-            'lon': '-111.8338359',
-            'date': ['11.06', '11.07']
+        {
+            "name": "hackUstate",
+            "link": "http://hackustate.org/",
+            "location": "Logan, UT",
+            "lat": "41.7369803",
+            "lon": "-111.8338359",
+            "date": ["11.06", "11.07"]
         },
-        {
-            'name': 'Junction Hackathon',
-            'link': 'http://hackjunction.com/index.html',
-            'location': 'Helsinki, Finland',
-            'lat': '60.1733244',
-            'lon': '24.9410248',
-            'date': ['11.06', '11.08']
+        {
+            "name": "Junction Hackathon",
+            "link": "http://hackjunction.com/index.html",
+            "location": "Helsinki, Finland",
+            "lat": "60.1733244",
+            "lon": "24.9410248",
+            "date": ["11.06", "11.08"]
         },
-        {
-            'name': 'YHack',
-            'link': 'http://www.yhack.org',
-            'location': 'New Haven, CT',
-            'lat': '41.308274',
-            'lon': '-72.9278835',
-            'date': ['11.06', '11.08']
+        {
+            "name": "YHack",
+            "link": "http://www.yhack.org",
+            "location": "New Haven, CT",
+            "lat": "41.308274",
+            "lon": "-72.9278835",
+            "date": ["11.06", "11.08"]
         },
-        {
-            'name': 'Aston Hack',
-            'link': 'http://astonhack.co.uk/',
-            'location': 'Birmingham, UK',
-            'lat': '52.486243',
-            'lon': '-1.890401',
-            'date': ['11.07', '11.08']
+        {
+            "name": "Aston Hack",
+            "link": "http://astonhack.co.uk/",
+            "location": "Birmingham, UK",
+            "lat": "52.486243",
+            "lon": "-1.890401",
+            "date": ["11.07", "11.08"]
         },
-        {
-            'name': 'MasterCard Masters of Code: New York',
-            'link': 'http://www.eventbrite.com/e/mastercard-masters-of-code-new-york-tickets-14977044744?aff=es2',
-            'location': 'New York City, NY',
-            'lat': '40.7127837',
-            'lon': '-74.0059413',
-            'date': ['11.07', '11.08']
+        {
+            "name": "MasterCard Masters of Code: New York",
+            "link": "http://www.eventbrite.com/e/mastercard-masters-of-code-new-york-tickets-14977044744?aff=es2",
+            "location": "New York City, NY",
+            "lat": "40.7127837",
+            "lon": "-74.0059413",
+            "date": ["11.07", "11.08"]
         },
-        {
-            'name': 'Technica',
-            'link': 'http://gotechnica.org/',
-            'location': 'College Park, MD',
-            'lat': '38.9896967',
-            'lon': '-76.93776',
-            'date': ['11.07', '11.08']
+        {
+            "name": "Technica",
+            "link": "http://gotechnica.org/",
+            "location": "College Park, MD",
+            "lat": "38.9896967",
+            "lon": "-76.93776",
+            "date": ["11.07", "11.08"]
         },
-        {
-            'name': 'HackNJIT',
-            'link': 'http://hacknjit.org/',
-            'location': 'Newark, NJ',
-            'lat': '40.735657',
-            'lon': '-74.1723667',
-            'date': ['11.08', '11.09']
-        },
-        {
-            'name': 'HackHarvard',
-            'link': 'http://hackharvard.org/',
-            'location': 'Cambridge, MA',
-            'lat': '42.3736158',
-            'lon': '-71.1097335',
-            'date': ['11.13', '11.15']
-        },
-        {
-            'name': 'HackRPI',
-            'link': 'http://www.hackrpi.com/',
-            'location': 'Troy, NY',
-            'lat': '42.7284117',
-            'lon': '-73.6917851',
-            'date': ['11.14', '11.15']
-        },
-        {
-            'name': 'MasterCard Masters of Code: London',
-            'link': 'http://www.eventbrite.com/e/mastercard-masters-of-code-london-tickets-14977046750?aff=es2',
-            'location': 'London, UK',
-            'lat': '51.5073509',
-            'lon': '-0.1277583',
-            'date': ['11.14', '11.15']
-        },
-        {
-            'name': 'OHI/O 2015',
-            'link': 'http://hack.osu.edu/',
-            'location': 'Columbus, OH',
-            'lat': '39.9611755',
-            'lon': '-82.9987942',
-            'date': ['11.14', '11.15']
-        },
-        {
-            'name': 'BattleHack Finals',
-            'link': 'https://2014.battlehack.org/finals',
-            'location': 'San Jose, CA',
-            'lat': '37.3382082',
-            'lon': '-121.8863286',
-            'date': ['11.15', '11.16']
-        },
-        {
-            'name': '&lt;Br/eak&gt;Poverty Hackathon',
-            'link': 'http://www.devswithoutborders.org/breakpoverty',
-            'location': 'Toronto, Canada',
-            'lat': '43.653226',
-            'lon': '-79.3831843',
-            'date': ['11.20', '11.22']
-        },
-        {
-            'name': '&lt;Br/eak&gt;Poverty Hackathon',
-            'link': 'http://www.devswithoutborders.org/breakpoverty',
-            'location': 'Nairobi, Kenya',
-            'lat': '-1.2920659',
-            'lon': '36.8219462',
-            'date': ['11.20', '11.22']
-        },
-        {
-            'name': 'ecomhack \"Personal Commerce\"',
-            'link': 'http://newyork.ecomhack.io/',
-            'location': 'New York City, NY',
-            'lat': '40.7127837',
-            'lon': '-74.0059413',
-            'date': ['11.20', '11.22']
-        },
-        {
-            'name': 'hack cc',
-            'link': 'http://www.hackcc.org/',
-            'location': 'Los Angeles, CA',
-            'lat': '34.0522342',
-            'lon': '-118.2436849',
-            'date': ['11.20', '11.22']
-        },
-        {
-            'name': 'CodeRED',
-            'link': 'http://uhcode.red/',
-            'location': 'Houston, TX',
-            'lat': '29.7604267',
-            'lon': '-95.3698028',
-            'date': ['11.21', '11.22']
-        },
-        {
-            'name': 'WildHacks',
-            'link': 'http://wildhacks.org/',
-            'location': 'Evanston, IL',
-            'lat': '42.0450722',
-            'lon': '-87.6876969',
-            'date': ['11.21', '11.22']
-        },
-        {
-            'name': 'Hack Western 2',
-            'link': 'https://hackwestern.com/',
-            'location': 'London, Canada',
-            'lat': '42.9869502',
-            'lon': '-81.243177',
-            'date': ['11.27', '11.29']
+        {
+            "name": "HackNJIT",
+            "link": "http://hacknjit.org/",
+            "location": "Newark, NJ",
+            "lat": "40.735657",
+            "lon": "-74.1723667",
+            "date": ["11.08", "11.09"]
+        },
+        {
+            "name": "HackHarvard",
+            "link": "http://hackharvard.org/",
+            "location": "Cambridge, MA",
+            "lat": "42.3736158",
+            "lon": "-71.1097335",
+            "date": ["11.13", "11.15"]
+        },
+        {
+            "name": "HackRPI",
+            "link": "http://www.hackrpi.com/",
+            "location": "Troy, NY",
+            "lat": "42.7284117",
+            "lon": "-73.6917851",
+            "date": ["11.14", "11.15"]
+        },
+        {
+            "name": "MasterCard Masters of Code: London",
+            "link": "http://www.eventbrite.com/e/mastercard-masters-of-code-london-tickets-14977046750?aff=es2",
+            "location": "London, UK",
+            "lat": "51.5073509",
+            "lon": "-0.1277583",
+            "date": ["11.14", "11.15"]
+        },
+        {
+            "name": "OHI/O 2015",
+            "link": "http://hack.osu.edu/",
+            "location": "Columbus, OH",
+            "lat": "39.9611755",
+            "lon": "-82.9987942",
+            "date": ["11.14", "11.15"]
+        },
+        {
+            "name": "BattleHack Finals",
+            "link": "https://2014.battlehack.org/finals",
+            "location": "San Jose, CA",
+            "lat": "37.3382082",
+            "lon": "-121.8863286",
+            "date": ["11.15", "11.16"]
+        },
+        {
+            "name": "&lt;Br/eak&gt;Poverty Hackathon",
+            "link": "http://www.devswithoutborders.org/breakpoverty",
+            "location": "Toronto, Canada",
+            "lat": "43.653226",
+            "lon": "-79.3831843",
+            "date": ["11.20", "11.22"]
+        },
+        {
+            "name": "&lt;Br/eak&gt;Poverty Hackathon",
+            "link": "http://www.devswithoutborders.org/breakpoverty",
+            "location": "Nairobi, Kenya",
+            "lat": "-1.2920659",
+            "lon": "36.8219462",
+            "date": ["11.20", "11.22"]
+        },
+        {
+            "name": "ecomhack \"Personal Commerce\"",
+            "link": "http://newyork.ecomhack.io/",
+            "location": "New York City, NY",
+            "lat": "40.7127837",
+            "lon": "-74.0059413",
+            "date": ["11.20", "11.22"]
+        },
+        {
+            "name": "hack cc",
+            "link": "http://www.hackcc.org/",
+            "location": "Los Angeles, CA",
+            "lat": "34.0522342",
+            "lon": "-118.2436849",
+            "date": ["11.20", "11.22"]
+        },
+        {
+            "name": "CodeRED",
+            "link": "http://uhcode.red/",
+            "location": "Houston, TX",
+            "lat": "29.7604267",
+            "lon": "-95.3698028",
+            "date": ["11.21", "11.22"]
+        },
+        {
+            "name": "WildHacks",
+            "link": "http://wildhacks.org/",
+            "location": "Evanston, IL",
+            "lat": "42.0450722",
+            "lon": "-87.6876969",
+            "date": ["11.21", "11.22"]
+        },
+        {
+            "name": "Hack Western 2",
+            "link": "https://hackwestern.com/",
+            "location": "London, Canada",
+            "lat": "42.9869502",
+            "lon": "-81.243177",
+            "date": ["11.27", "11.29"]
         }
     ]
 };
