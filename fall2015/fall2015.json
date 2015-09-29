@@ -377,6 +377,14 @@ var hackathons = {
             "date": ["10.02", "10.04"]
         },
         {
+            "name": "WearHacks Montreal",
+            "link": "https://montreal.wearhacks.com/",
+            "location": "Montreal, Canada",
+            "lat": "45.507997",
+            "lon": "-73.553742",
+            "date": ["10.02", "10.04"]
+        },
+        {
             "name": "#INCLUDE <A-THON>",
             "link": "https://include-hackathon.herokuapp.com",
             "location": "San Juan, Puerto Rico",
@@ -569,6 +577,14 @@ var hackathons = {
             "date": ["10.23", "10.25"]
         },
         {
+            "name": "WearHacks - New York City",
+            "link": "https://wearhacksnewyorkcity.splashthat.com/",
+            "location": "Brooklyn, NY",
+            "lat": "40.694314",
+            "lon": "-73.986847",
+            "date": ["10.23", "10.25"]
+        },
+        {
             "name": "BrumHack",
             "link": "https://www.brumhack.co.uk/",
             "location": "Birmingham, UK",
@@ -662,6 +678,14 @@ var hackathons = {
             "location": "New Haven, CT",
             "lat": "41.308274",
             "lon": "-72.9278835",
+            "date": ["11.06", "11.08"]
+        },
+        {
+            "name": "WearHacks - Los Angeles",
+            "link": "http://wearhacksla.splashthat.com/",
+            "location": "Los Angeles, CA",
+            "lat": "33.981035",
+            "lon": "-118.415671",
             "date": ["11.06", "11.08"]
         },
         {
