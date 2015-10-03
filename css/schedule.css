@@ -1,0 +1,26 @@
+.page-main {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+#hackathons-list {
+    position: relative;
+    font: 12px/20px 'Share Tech Mono', monospace;
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.page-footer {
+    position: absolute;
+    font: 12px/20px 'Share Tech Mono', monospace;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    height: 115px;
+    width: 100%;
+}
