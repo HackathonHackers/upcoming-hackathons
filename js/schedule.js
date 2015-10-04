@@ -1,22 +1,20 @@
-/*global console, $, hackathons*/
+/*global console, $, hackathons, makeInfoBlock*/
 
-var h, hack, html,
-    upcoming_html = "<th>Upcoming Hacks</th>",
-    has_passed_html = "<th>Passed Hackathons</th>",
-    date = new Date(),
-    month = date.getMonth() + 1,
-    day = date.getDate() + 1;
-console.log(date);
-console.log("today", month, day);
+$(document).ready(function () {
+    'use strict';
+    $('.info-cards').masonry({
+        itemSelector: '.info-block-card',
+        columnWidth: 300
+    });
+});
 
-upcoming_html += "<tr class='hackathon-list-head'><td>Name</td><td>Location</td><td>Start</td><td>Finish</td></tr>";
-has_passed_html += "<tr class='hackathon-list-head'><td>Name</td><td>Location</td><td>Start</td><td>Finish</td></tr>";
+var h, hack;
 
 
 for (h in hackathons.f2015) {
     if (hackathons.f2015.hasOwnProperty(h)) {
         hack = hackathons.f2015[h];
-        
+        /*
         var altName = null,
             start_month = parseInt(hack.date[0], 10),
             start_day = parseInt((parseFloat(hack.date[0]) % 1) * 100, 10);
@@ -30,13 +28,15 @@ for (h in hackathons.f2015) {
         html += ("<td>" + (hack.date[1] || '') + "</td>");
         html += "</tr>";
         
-        if ((month > start_month) || ((month === start_month) && (day > start_day))) {
+        if ((month > start_month) ||
+                ((month === start_month) && (day > start_day))) {
             has_passed_html += html;
         } else {
             upcoming_html += html;
         }
+        */
+        makeInfoBlock(hack);
     }
 }
 
-
-document.getElementById('hackathons-list').innerHTML = (has_passed_html + upcoming_html);
+//document.getElementById('hackathons-list').innerHTML = (has_passed_html + upcoming_html);
