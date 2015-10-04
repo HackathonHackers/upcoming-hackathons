@@ -1,0 +1,65 @@
+a {
+    color: black;
+}
+
+.info-cards {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.info-block-card {
+    position: relative;
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    margin: 20px;
+    background: white;
+}
+
+#block-img {
+    position: absolute;
+    display: block;
+    border-radius: 10px;
+    top: 25px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    background: black;
+    z-index: 0;
+}
+
+.portrait img {
+    width: 100%;
+}
+
+.landscape img {
+    height: 100%;
+}
+
+#block-img img {
+    display: block;
+    max-height: 150px;
+    max-width: 150px;
+}
+
+#info.info-block {
+    font: 12px/20px 'Share Tech Mono', monospace;
+    font-size: 15px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+#info.info-block div {
+    margin: 2px;
+}
+
+#info.info-block #name {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
