@@ -1,7 +1,7 @@
 var hackathons = {
     "f2015": [
         {
-            "name": "AT&T Mobile App Hackathon - Seattle",
+            "name": "AT&amp;T Mobile App Hackathon - Seattle",
             "link": "http://www.eventbrite.com/e/att-mobile-app-hackathon-seattle-tickets-17925164650",
             "img": "att.png",
             "location": "Seattle, WA",

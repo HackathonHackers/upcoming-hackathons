@@ -1,42 +1,46 @@
 /*global console, $, hackathons, makeInfoBlock*/
 
+/**
+ * Temporarily using JQuery Masonry package for gridding format.
+ * Its really slow, so I'm hoping to have something else soon.
+ **/
 $(document).ready(function () {
     'use strict';
     $('.info-cards').masonry({
-        itemSelector: '.info-block-card',
-        columnWidth: 300
+        itemSelector: '.info-block-card'
     });
 });
 
-var h, hack;
-
-
-for (h in hackathons.f2015) {
-    if (hackathons.f2015.hasOwnProperty(h)) {
-        hack = hackathons.f2015[h];
-        /*
-        var altName = null,
-            start_month = parseInt(hack.date[0], 10),
-            start_day = parseInt((parseFloat(hack.date[0]) % 1) * 100, 10);
-        
-        console.log(start_month, start_day);
-        
-        html = "<tr>";
-        html += ("<td>" + (altName || hack.name) + "</td>");
-        html += ("<td>" + hack.location + "</td>");
-        html += ("<td>" + hack.date[0] + "</td>");
-        html += ("<td>" + (hack.date[1] || '') + "</td>");
-        html += "</tr>";
-        
-        if ((month > start_month) ||
-                ((month === start_month) && (day > start_day))) {
-            has_passed_html += html;
-        } else {
-            upcoming_html += html;
-        }
-        */
-        makeInfoBlock(hack);
+var hack, hackathon,
+    /* Date to be used to determine how to sort the listed events. */
+    date = new Date(),
+    month = date.getMonth() + 1,
+    day = date.getDate() + 1;
+/**
+ * @function hasPassed
+ * @param date - The array holding the dates, represented as strings.
+ * @return {string} id - The id of the up-coming or past-hack sets.
+ **/
+function hasPassed(date) {
+    'use strict';
+    var start_date = date[0].split('.'),
+        start_month = parseInt(start_date[0], 10),
+        start_day = parseInt(start_date[1], 10);
+    
+    if ((month > start_month) ||
+            ((month === start_month) && (day > start_day))) {
+        return "#past-hack";
+    } else {
+        return "#up-coming";
     }
 }
-
-//document.getElementById('hackathons-list').innerHTML = (has_passed_html + upcoming_html);
+/**
+ * Loops through the hackathons JSON and runs
+ * makeInfoBlock on all of the individual hackathons.
+ **/
+for (hack in hackathons.f2015) {
+    if (hackathons.f2015.hasOwnProperty(hack)) {
+        hackathon = hackathons.f2015[hack];
+        makeInfoBlock(hackathon, hasPassed(hackathon.date));
+    }
+}
