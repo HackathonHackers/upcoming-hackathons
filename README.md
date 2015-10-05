@@ -2,6 +2,8 @@
 
 Crowdsourced list of hackathons
 
+*Original list gathered from the [hackathon calendar](https://github.com/japacible/Hackathon-Calendar) written by **@japacible**.*
+
 ## Contributing
 
 ### Contributing an event
@@ -19,3 +21,7 @@ Hackathons are an object where each season is a property with the list of events
   }
 ```
 Don't forget to upload an image to the hack-imgs folder.
+
+Maintainer
+----------
+Hacker Hallie -> <hh-github@hallielomax.com>
