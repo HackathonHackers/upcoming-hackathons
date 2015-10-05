@@ -1,3 +1,6 @@
+/**
+ * The div holding all of the main parts.
+ **/
 .page-main {
     position: absolute;
     top: 10px;
@@ -7,7 +10,9 @@
     overflow-y: auto;
     text-align: center;
 }
-
+/**
+ * The footer at the bottom.
+ **/
 .page-footer {
     position: absolute;
     font: 12px/20px 'Share Tech Mono', monospace;
@@ -16,4 +21,12 @@
     left: 0;
     height: 115px;
     width: 100%;
+    background: black;
+    color: whitesmoke;
+}
+/**
+ * Changing to not blend in with the background....
+ **/
+.page-footer a {
+    color: blueviolet;
 }

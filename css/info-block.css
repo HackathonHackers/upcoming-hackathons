@@ -1,13 +1,20 @@
+/**
+ * Changing the default hyperlink color.
+ **/
 a {
     color: black;
 }
-
+/**
+ * Div containing all of the info cards.
+ **/
 .info-cards {
     position: relative;
     margin: 0 auto;
     height: 100%;
 }
-
+/**
+ * The info card itself.
+ **/
 .info-block-card {
     position: relative;
     height: 350px;
@@ -17,7 +24,9 @@ a {
     margin: 20px;
     background: white;
 }
-
+/**
+ * The inner div that holds the hack image.
+ **/
 #block-img {
     position: absolute;
     display: block;
@@ -28,7 +37,9 @@ a {
     height: 150px;
     z-index: 0;
 }
-
+/**
+ * The inner div that holds the relevant information.
+ **/
 #info.info-block {
     font: 12px/20px 'Share Tech Mono', monospace;
     font-size: 15px;
@@ -39,11 +50,15 @@ a {
     width: 100%;
     text-align: center;
 }
-
+/**
+ * The divs within the info div.
+ **/
 #info.info-block div {
     margin: 2px;
 }
-
+/**
+ * Specifically the div that holds the event name.
+ **/
 #info.info-block #name {
     font-size: 25px;
     margin-bottom: 10px;
