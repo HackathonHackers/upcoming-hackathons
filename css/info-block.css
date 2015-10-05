@@ -26,22 +26,7 @@ a {
     left: 50px;
     width: 150px;
     height: 150px;
-    background: black;
     z-index: 0;
-}
-
-.portrait img {
-    width: 100%;
-}
-
-.landscape img {
-    height: 100%;
-}
-
-#block-img img {
-    display: block;
-    max-height: 150px;
-    max-width: 150px;
 }
 
 #info.info-block {
