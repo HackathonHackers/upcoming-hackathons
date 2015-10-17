@@ -811,6 +811,15 @@ var hackathons = {
             "date": ["11.07", "11.08"]
         },
         {
+            "name": "CodeDay Fall 2015",
+            "link": "https://codeday.org/",
+            "img": "codeday.png",
+            "location": "Multiple Cities",
+            "lat": "32.0369421",
+            "lon": "118.851977",
+            "date": ["11.07", "11.08"]
+        },
+        {
             "name": "HackNJIT",
             "link": "http://hacknjit.org/",
             "img": "hacknjit.jpeg",
